@@ -1,5 +1,5 @@
 /*** Bartlomiej Stepek - 2D Maximum Subarray ***/
-package source;
+package 2dmaxsubarray;
 
 import java.util.Scanner;
 
