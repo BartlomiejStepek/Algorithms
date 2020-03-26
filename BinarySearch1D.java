@@ -1,8 +1,8 @@
 /*** Bartlomiej Stepek - Binary Search in 1D array ***/
-//package source;
+package binarysearch1d;
 import java.util.Scanner;
 
-public class Source {
+public class BinarySearch1D {
 
     public static Scanner sc = new Scanner(System.in);
     
