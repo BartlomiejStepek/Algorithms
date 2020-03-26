@@ -314,8 +314,8 @@ public class InfixPostfixConverter {
     }
 }
 
-/*
-    #test.in
+/***
+    Input
 42
 ONP: xabc**=
 ONP: ab+a~a-+
@@ -360,7 +360,7 @@ INF: (a+b)+()
 INF: ~()a
 ONP: xabcde^^=== 
 
-    #test.out
+    Output
 INF: x=a*(b*c)
 INF: a+b+(~a-a)
 ONP: ab+a~a-+
@@ -403,4 +403,4 @@ ONP: error
 ONP: error
 ONP: error
 INF: x=a=b=c^d^e
-*/
+***/
