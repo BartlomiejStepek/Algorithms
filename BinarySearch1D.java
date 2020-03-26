@@ -21,12 +21,12 @@ public class BinarySearch1D {
                         return s;  
                 }
             }
-            else if(array[s] > x) {   
+            else if(array[s] > x)  
                 last = s - 1;
-            }
-            else if(array[s] < x) {
+ 
+            else
                 first = s + 1;
-            }
+        
         }
         return first;
     }
