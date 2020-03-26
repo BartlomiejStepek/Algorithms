@@ -6,7 +6,7 @@ public class BinarySearch1D {
 
     public static Scanner sc = new Scanner(System.in);
     
-    public static int find_the_number(int x, int[] array, int nb) {
+    public static int Binary_Search(int x, int[] array, int nb) {
         int first = 0, s, last = nb - 1;
         while(first <= last) {     
             s = (first + last)/ 2; 
@@ -45,10 +45,10 @@ public class BinarySearch1D {
             
             int amount_of_search_numbers = sc.nextInt(); 
             for(int j = 0; j < amount_of_search_numbers; j++) {
-                int x = sc.nextInt(); //szukane elementy
+                int x = sc.nextInt(); 
                 
-                int first_element = find_the_number(x, array, amount_of_numbers);
-                int next_element = find_the_number(x + 1, array, amount_of_numbers);
+                int first_element = Binary_Search(x, array, amount_of_numbers);
+                int next_element = Binary_Search(x + 1, array, amount_of_numbers);
                 
                 int before = first_element;
                 int quantity = next_element - first_element;
